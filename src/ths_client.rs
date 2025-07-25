@@ -227,4 +227,5 @@ pub struct Account {
     pub account: String,
     pub password: String,
     pub comm_password: String,
+    pub qs_name: String,
 }

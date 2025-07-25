@@ -1,9 +1,10 @@
 [
   {
-    "name": "xx证券",
+    "name": "xx证券-xxx",
     "yyb_id": "xx",
     "account": "xx",
     "password": "xx",
-    "comm_password": ""
+    "comm_password": "",
+    "qs_name": "xx证券"
   }
 ]

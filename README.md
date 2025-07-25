@@ -1,3 +1,17 @@
+## 配置
+参考示例配置文件
+
+## 启动
+无参数启动 ./tradeServer.exe ,启动后根据配置文件选择账户
+
+参数指定账户 ./tradeServer.exe xx券商 
+
+### wine
+使用wine 10以上版本，需要 linux 修改默认的字符集为 zh_CN.UTF-8
+
+wine tradeServer.exe xx券商-xxx 启动
+
+## 接口
 ```
 GET /query/zijin            查询资金
 GET /query/chicang          查询当前持仓

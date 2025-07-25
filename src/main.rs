@@ -285,7 +285,10 @@ async fn main() -> io::Result<()> {
     
     let content2 = fs::read_to_string("server.json").map_err(|_e| "无法找到 server.json 配置文件").unwrap();
     let servers: HashMap<String,Server> = serde_json::from_str(&content2).map_err(|_e| "解析 server.json 失败").unwrap();
-    let server = servers.get(&account.name).unwrap();
+    if account.qs_name.is_empty() {
+        panic!("券商名称不能为空");
+    }
+    let server = servers.get(&account.qs_name).unwrap();
     
     if server.version.is_empty() {
         panic!("版本不能为空");
