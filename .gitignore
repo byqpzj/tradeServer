@@ -1,0 +1,7 @@
+/target
+.idea
+
+tradej.dll
+tradeServer.exe
+account.json
+server.json

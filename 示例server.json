@@ -1,0 +1,15 @@
+{
+  "xx证券": {
+    "name": "xx",
+    "version": "xxx",
+    "qsid": 0,
+    "address": [
+      {
+        "host": "xxx",
+        "port": 0,
+        "name": "xx"
+      }
+    ],
+    "trader_server_port": 8082
+  }
+}
